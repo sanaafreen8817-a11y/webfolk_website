@@ -10,7 +10,7 @@
             var s = 'New ' + d.get('svc') + ' enquiry from ' + d.get('name');
             var t = 'Name: ' + d.get('name') + '\nEmail: ' + d.get('email') + '\nService: ' + d.get('svc') + '\n\n' + d.get('msg');
             m.style.color = ''; m.textContent = 'Opening your email app to send this message.';
-            location.href = 'webfolk57@gmail.com?subject=' + encodeURIComponent(s) + '&body=' + encodeURIComponent(t)
+            location.href = 'mailto:webfolk57@gmail.com?subject=' + encodeURIComponent(s) + '&body=' + encodeURIComponent(t)
         })
     }
 })();
